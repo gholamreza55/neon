@@ -3,7 +3,7 @@ package maliyat;
 public class TaxCalculator2 implements Taxcalculator{
     @Override
     public double calculateTax() {
-        return 0;
+        return .02;
     }
 
 //    @Override

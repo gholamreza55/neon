@@ -6,9 +6,10 @@ public class Account {
     private float balance;
 
     public void withdraw(float value) throws AccountException{
-        if (value > balance){
-            throw new AccountException(new InsufficientFundsException());
-        }
+      /*  if (value > balance){
+            throw new AccountExceptionBuilder()
+                    .setCause(new InsufficientFundsException());
+        }*/
     }
 
     public void deposit(float value) throws IOException {

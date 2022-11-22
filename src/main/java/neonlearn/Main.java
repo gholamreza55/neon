@@ -8,9 +8,6 @@ public class Main {
         int wag = emploee.calculator();
         System.out.println(wag);
         Emploee.printNumberofEmployee();
-
-
-
     }
 }
 

@@ -7,5 +7,6 @@ public class Main {
         } catch (Throwable e) {
             System.out.println("an Exception error");
         }
+
     }
 }
